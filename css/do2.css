@@ -1,0 +1,53 @@
+/* css ap dung cho bai tap ngay thu 2 */
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cyan;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+li{
+    padding: 1em;
+}
+
+h1{
+    text-shadow: 3px 3px 3px gray;
+    color: peru;
+    text-indent: 2rem;
+}
+
+/* dinh nghia class selector cho phan the khoi div */
+.noidung{
+    width: 60%;
+    margin: auto;
+}
+
+/* dinh nghia id selector */
+#tam{
+    font-style: italic;
+    text-align: justify;
+}
+
+a:hover{
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: coral;
+}
+
+p::first-letter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px darkgoldenrod;
+    color: black;
+}
