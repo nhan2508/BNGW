@@ -1,0 +1,49 @@
+/* tao class selector */
+.ting{
+    padding: 3em;
+    margin: 4em;
+    color: peru;
+    
+    border-top-color: tomato;
+    border-bottom-color: green;
+    border-left-color: lawngreen;
+    border-right-color: lightsalmon;
+
+    border-top-style: groove ;
+    border-bottom-style: double;
+    border-left-style: dotted;
+    border-right-style: dashed;
+
+    border-top-width: thick;
+    border-bottom-width: medium;
+    border-left-width: 0.2em;
+    border-right-width: thin;
+
+}
+
+.tong{
+    margin: 1em;
+    color: red;
+    background-color: orange;
+
+    border-color: lightsalmon red ;
+    border-style: groove dashed;
+    border-width: thick medium;
+}
+
+.sing{
+    padding: 3em;
+    color: pink;
+    background-color:   black;
+
+    border: yellow inset thick;
+}
+
+p{
+    text-align: justify;
+}
+
+.small-pic{
+    width: 30%;
+    padding: 1em;
+}

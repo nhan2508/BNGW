@@ -1,0 +1,56 @@
+*{
+    background-color: navajowhite;
+}
+
+section{
+    padding: 5px 10px;
+}
+
+a{
+    padding: 5px 10px;
+}
+
+ul{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    width: 80%;
+}
+
+.ting{
+    text-shadow: 3px 3px 3px black;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100px;
+    position: relative;
+    text-align: center;
+}
+
+span {
+    text-shadow: 3px 3px 3px black;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+  }
+  
+  #span1 {-webkit-animation-timing-function: linear;}
+  
+  #span1 {animation-timing-function: linear;}
+  
+  @-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+  }
+
+  table, th, td {  
+    border: 1px solid red;
+    border-collapse: collapse;
+}

@@ -1,0 +1,33 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+label{
+    color: blueviolet;
+}
+
+input:required{
+    background-color:cornsilk;
+}
+
+input[type="submit"]{
+    color: whitesmoke;
+    background-color: tomato;
+    padding: 2px 15px;
+    border-radius: 6px;
+}
+
+input[type="reset"],input[type="button"]{
+    color: cyan;
+    background-color: darkcyan;
+    padding: 2px 15px;
+    border-radius: 6px;
+}
+
+form{
+    padding: 1rem;
+    border: silver inset medium;
+    width: 50%;
+    margin-left: 1rem;
+}

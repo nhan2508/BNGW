@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    position: relative;
+}
+
+header>span{
+    padding-left: 1rem;
+    position: absolute;
+    top: 30%;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+    }
+      
+      #span1 {-webkit-animation-timing-function: linear;}
+      
+      #span1 {animation-timing-function: linear;}
+      
+      @-webkit-keyframes mymove {
+        from {left: 0px;}
+        to {left: 500px;}
+      }
+      
+      @keyframes mymove {
+        from {left: 0px;}
+        to {left: 500px;}
+      }
+    
+      table, th, td {  
+        border: 1px solid red;
+        border-collapse: collapse;
+    }
+
+section{
+    padding: 3em;
+    margin: 1.5em;
+}
+
+.nhan{
+    border-style: groove;
+    border-width: thick medium;
+    border-color: tomato;
+}
+
+footer>form{
+    padding: 3em;
+    margin: 1.5em;
+    border-style: groove;
+    border-width: thick medium;
+}
+
+nav {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  nav>a{
+      padding: 10px;
+  }
+
+ 
+video{
+        background-color: black;
+        border: medium double black;
+    }

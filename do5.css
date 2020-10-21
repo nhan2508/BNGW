@@ -1,0 +1,40 @@
+
+        .logo{
+            width: 100px;
+            padding: 5px;
+        }
+
+        header{
+            background-color: black;
+            color: burlywood;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2rem;
+            position: relative;
+        }
+
+        header>span{
+            padding-left: 1rem;
+            position: absolute;
+            top: 30%;
+        }
+
+        nav{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 5px;
+            font-size: 1.1em;
+            text-align: center;
+        }
+
+        nav>a{
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        nav>a:hover{
+            background-color: pink;
+        }
+
+        footer{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }

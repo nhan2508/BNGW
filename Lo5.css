@@ -1,0 +1,22 @@
+
+.noidung{
+    width: 80%;
+    margin: auto;
+}
+
+.ting{
+    text-align: center;
+}
+
+.small-pic{
+    width: 20%;
+}
+
+.tog{
+    margin: 10%;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cyan;
+}

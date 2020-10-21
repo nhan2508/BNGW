@@ -1,0 +1,42 @@
+*{
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.cute{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    border-left: darksalmon;
+    background-color: cyan;
+    position: relative;
+}
+
+.cuting{
+    text-shadow: 3px 3px 3px black;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100px;
+}
+
+.bin{
+    color: blue;
+}
+
+
+a{
+    padding: 5px 10px;
+}
+
+.tin{
+    color: blue;
+}
+
+.tt{
+    color: blue;
+}
+
+.nhan{
+    text-align: left;
+}
